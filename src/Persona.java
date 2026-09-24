@@ -1,4 +1,4 @@
-//public class Persona {
+// public class Persona {
 //    private String nome;
 //    private int eta;
 //    private String luogo;
@@ -20,4 +20,9 @@
 //}
 
 // uso di record per semplificare la gestione dei dati
-public record Persona(String nome, int eta, String luogo) {}
+public record Persona(String nome, Integer eta, String luogo) {
+    @Override
+    public String toString() {
+        return "Nome: " + nome + "\nEtà: " + eta + "\nLuogo: " + luogo;
+    }
+}
