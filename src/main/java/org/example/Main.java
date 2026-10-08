@@ -1,5 +1,7 @@
 // questo è un commento
 
+import java.util.*;
+
 import static java.lang.IO.*;
 
 void main() {

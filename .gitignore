@@ -1,8 +1,20 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
 ### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.kotlin
 
 ### Eclipse ###
 .apt_generated
@@ -22,6 +34,9 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
@@ -29,6 +44,9 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-*.iml
 .idea
 out
+.idea/
+.mvn/
+test/
+main/resources/
