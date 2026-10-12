@@ -1,18 +1,18 @@
 import java.lang.Exception;
 import static java.lang.IO.*;
 
-void main() throws Exception {
+void main() {
     f();
 }
 
-static void f() throws Exception{
+static void f() {
     g();
 }
 
-private static void g() throws Exception {
+private static void g() {
     h();
 }
 
-private static void h() throws Exception {
-    throw new Exception("Eccezione in arrivo");
+private static void h() throws RuntimeException {
+    throw new RuntimeException("Eccezione in arrivo");
 }
