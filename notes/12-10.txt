@@ -1,0 +1,4 @@
+TIPI DI ECCEZIONI:
+-> Exception (checked)
+checked: DEVE essere gestita
+-> RuntimeException (unchecked)
